@@ -1,0 +1,102 @@
+.description{
+    margin-top: 50px;
+    color: var(--font-color);
+}
+
+div.screen-bg{
+    padding: 5px;
+    width: 25%;
+}
+
+.description .description-foto{
+    display: flex;
+    padding-top: 20px;
+}
+
+.description .txt p{
+    max-width: 400px ;
+
+}
+
+.description .description-foto .screen{
+    width: 100%;
+    height: 400px;
+    background-color: var(--box-color);
+    transition: box-shadow 0.5s;
+}
+
+.description .description-foto .screen:hover{
+    box-shadow: var(--shadow);
+}
+
+.description .description-foto .txt{
+    max-width: 600px;
+}
+
+.description .description-foto .Up h3{
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.description .description-foto .inform-colmn{
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 75%;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.description .description-foto .Up ul{
+    list-style: none;
+    justify-content: flex-start;
+    max-width: 600px;
+    align-items: flex-start;
+    padding: 50px 0 0 0;
+}
+
+.description .description-foto ul li{
+    padding-right: 50px;
+    font-style: italic;
+}
+
+.description .description-foto ul li a{
+    text-decoration: none;
+    color: var(--font-color);
+    transition: color 0.5s;
+}
+
+.description .description-foto ul li a:hover {
+    color: var(--first-collor);
+}
+
+
+.description .description-foto .Down{
+    display: flex;
+    min-width: 820px;
+    justify-content: space-between;
+}
+
+
+.description .description-foto .screen-block{
+    width: 25%;
+    padding: 5px;   
+}
+
+.description .description-foto .screen-block-content{
+    height: 200px;
+    background-color: var(--box-color);
+    transition: box-shadow 0.5s;
+}
+
+.description .description-foto .screen-block-content:hover{
+    box-shadow: var(--shadow);
+}
+
+.description hr{
+    margin-top: 30px;
+    width: 100px;
+    background-color: var(--first-collor);
+    height: 3px;
+    border: 0;
+}

@@ -1,0 +1,16 @@
+.container {
+    width: var(--width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+

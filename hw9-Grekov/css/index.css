@@ -1,0 +1,10 @@
+@import "common/index.css";
+@import "components/header.css";
+
+@import "components/banner.css";
+@import "components/services.css";
+@import "components/gallery.css";
+@import "components/description.css";
+@import "components/mail.css";
+
+@import "components/footer.css";

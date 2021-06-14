@@ -1,0 +1,48 @@
+.mail{
+    background-color: var(--box-color);
+    padding: 100px 0;
+    margin-top: 50px;
+}
+
+.mail .container{
+    text-align: center;
+    color: white;
+}
+
+.mail .container h2{
+    font-size: 40px;
+}
+
+.mail .container p{
+    font-size: 25px;
+}
+
+.mail .container form{
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mail .container form input{
+    width: 520px;
+    height: 80px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.mail .container form button{
+    width: 215px;
+    height: 80px;
+    border-radius: 5px;
+    background-color: var(--first-collor);
+    font-family: sans-serif;
+    color: white;
+    font-size: 20px;
+    border: 0;
+}
+
+::placeholder{
+    font-size: 16px;
+    padding-left: 50px;
+}

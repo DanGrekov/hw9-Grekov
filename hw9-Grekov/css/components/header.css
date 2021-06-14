@@ -1,0 +1,30 @@
+header {
+    padding: 30px 0;
+    background-color: rgb(243, 243, 237);
+}
+
+
+header nav {
+    background-color: rgb(36, 36, 36);
+}
+
+header nav a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 25px 25px;
+    display: inline-block;
+    transition: background-color 0.5s;
+}
+
+header nav a:hover {
+    background-color: var(--first-collor);
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}

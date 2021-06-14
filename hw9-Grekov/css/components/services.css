@@ -1,0 +1,64 @@
+.services{
+    margin-top:50px;
+}
+.services .left, 
+.services .right{
+    width: 50%;
+    justify-content: space-between;
+}
+
+.services .right .item{
+    max-width: 50%;
+    font-size: 16px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.services .left p{
+    max-width: 450px;
+}
+
+.services .item p{
+    max-width: 400px;
+    color: var(--font-color);
+}
+
+.services .left a.btn-services{
+    color:  var(--first-collor);
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 48px;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: var(--font);
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    max-width: 20%;
+    border: 3px solid;
+    border-color: var(--first-collor);
+    transition: 0.5s;
+}
+
+.services .left a.btn-services:hover{
+    background-color: var(--first-collor);
+    color: rgb(255, 255, 255);
+}
+
+.services h2 {
+    color:  var(--font-color);
+    font-size: 35px;
+    max-width: 450px;
+}
+
+.services h3 {
+    color:  var(--font-color);
+}
+
+.services img.img{
+    width: 35px;
+}
