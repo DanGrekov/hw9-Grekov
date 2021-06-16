@@ -1,7 +1,35 @@
 footer{
-    margin-top: 50px;
+    margin-top: 100px;
     padding: 20px 0;
     font-size: 12px;
     background-color: rgb(36, 36, 36);
     color: rgb(107, 107, 107);
+}
+
+footer a{
+    color: white;
+    list-style: none;
+}
+
+
+footer .to-start{
+    color: var(--font-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--first-collor);
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    
+}
+
+footer .to-start:hover{
+    box-shadow: var(--shadow);
 }

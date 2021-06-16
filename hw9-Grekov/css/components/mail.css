@@ -1,7 +1,7 @@
 .mail{
     background-color: var(--box-color);
-    padding: 100px 0;
-    margin-top: 50px;
+    padding: 150px 0;
+    margin-top: 60px;
 }
 
 .mail .container{
@@ -14,7 +14,8 @@
 }
 
 .mail .container p{
-    font-size: 25px;
+    font-size: 12px;
+    padding: 30px 0;
 }
 
 .mail .container form{
@@ -29,10 +30,14 @@
     height: 80px;
     border-radius: 5px;
     border: 0;
+    transition: 0.5s;
+}
+
+.mail .container form input:hover{
+    box-shadow: var(--shadow);
 }
 
 .mail .container form button{
-    width: 215px;
     height: 80px;
     border-radius: 5px;
     background-color: var(--first-collor);
@@ -40,6 +45,12 @@
     color: white;
     font-size: 20px;
     border: 0;
+    transition: 0.5s;
+    padding: 0 50px;
+}
+
+.mail .container form button:hover{
+    box-shadow: var(--shadow);
 }
 
 ::placeholder{

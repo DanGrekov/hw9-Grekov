@@ -1,5 +1,5 @@
 .gallery{
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .gallery h3,
@@ -7,9 +7,16 @@
     text-align: center;
 }
 
-div.prodacts-bg h3{
+.gallery h3{
     font-size: 28px;
+    font-weight: 700;
+}
+
+.gallery p {
+    padding: 20px 0;
     color: var(--font-color);
+    width: 400px;
+    margin: 0 auto;
 }
 
 .gallery ul{
@@ -28,12 +35,6 @@ div.prodacts-bg h3{
     transition: color 0.5s;
 }
 
-.gallery p{
-    color: var(--font-color);
-    width: 400px;
-    margin: 0 auto;
-    
-} 
 
 .gallery a:hover {
     color: var(--first-collor);
@@ -42,6 +43,7 @@ div.prodacts-bg h3{
 div.boxes{ 
     justify-content:space-between;
     flex-wrap: wrap;  
+    padding-top: 50px;
 }
 .gallery .box{
     width: 25%;  
@@ -59,9 +61,9 @@ div.boxes{
 }
 
 .gallery hr{
-    margin-top: 30px;
     width: 100px;
     background-color: var(--first-collor);
-    height: 3px;
+    height: 2px;
     border: 0;
+    margin-bottom: 80px;
 }

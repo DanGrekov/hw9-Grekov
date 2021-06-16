@@ -1,11 +1,12 @@
 header {
     padding: 30px 0;
-    background-color: rgb(243, 243, 237);
+    background-color: var(--hdr-ban-collor);
 }
 
 
 header nav {
-    background-color: rgb(36, 36, 36);
+    background-color: var(--nav-collor);
+    padding: 0;
 }
 
 header nav a {
@@ -28,3 +29,28 @@ header nav ul {
     list-style: none;
     justify-content: center;
 }
+
+header nav ul li ul.dropdown {
+    display: none; 
+    position: absolute;
+}
+
+
+header nav ul:not(.dropdown) li {
+    position: relative;
+}
+
+header nav ul li:hover ul.dropdown {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+header nav ul.dropdown li {
+    background-color: var(--nav-collor);
+
+}
+
+header nav ul.dropdown li a {
+    display: block; 
+} 

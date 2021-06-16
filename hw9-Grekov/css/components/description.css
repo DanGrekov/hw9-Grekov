@@ -1,9 +1,9 @@
 .description{
-    margin-top: 50px;
+    margin-top: 100px;
     color: var(--font-color);
 }
 
-div.screen-bg{
+.description .screen-bg{
     padding: 5px;
     width: 25%;
 }
@@ -14,7 +14,17 @@ div.screen-bg{
 }
 
 .description .txt p{
-    max-width: 400px ;
+    font-size: 15px;
+    max-width: 400px;
+    line-height: 30px;
+    padding: 30px 0;
+}
+
+.description .txt h1{
+    color: var(--font-color);
+    font-size: 35px;
+    max-width: 450px;
+    font-weight: 600;
 
 }
 
@@ -37,6 +47,11 @@ div.screen-bg{
     font-weight: 500;
     font-size: 30px;
     margin-top: 0;
+}
+
+.description .description-foto .Up p{
+    padding-top: 30px;
+    line-height: 25px;
 }
 
 .description .description-foto .inform-colmn{
@@ -78,9 +93,12 @@ div.screen-bg{
 }
 
 
+.description .description-foto .screen-block:not(:last-child){
+    padding-right: 10px;   
+}
+
 .description .description-foto .screen-block{
-    width: 25%;
-    padding: 5px;   
+    width: 25%;   
 }
 
 .description .description-foto .screen-block-content{
@@ -94,9 +112,9 @@ div.screen-bg{
 }
 
 .description hr{
-    margin-top: 30px;
+    margin:0;
     width: 100px;
     background-color: var(--first-collor);
-    height: 3px;
+    height: 2px;
     border: 0;
 }
