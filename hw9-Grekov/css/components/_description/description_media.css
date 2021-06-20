@@ -53,10 +53,3 @@
 
 }
 
-@media (max-width: 350px) {
-
-    .description .description-foto .screen-block-content {
-        height: 100px; 
-    }
-
-}

@@ -1,4 +1,12 @@
-@media (max-width: 750px) {
+@media (max-width: 992px){
+    .services .row .left p {
+        padding-right: 20px;
+
+    }
+
+}
+
+@media (max-width: 767px) {
 
     .services .left, 
     .services .right{
