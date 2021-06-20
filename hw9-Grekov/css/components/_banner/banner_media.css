@@ -1,0 +1,56 @@
+@media (max-width: 1000px) {
+
+    .banner .left,
+    .banner .right {
+        width: 100%;
+
+    }
+
+    .banner .row {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .banner .row .left,
+    .banner .row .right {
+    width: 100%;
+
+    }
+
+    .banner .right {
+        margin-bottom: 20px;
+    }
+
+    .banner .left h2 {
+        margin-bottom: 10px;
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .banner .row .left p {
+        padding-top:20px;
+        text-align: justify;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .banner .row .left h2 {
+    font-size: 30px;
+    }
+
+    .banner .row .left a {
+        max-width: 30%;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    .banner .row .left a {
+        max-width: 100%;
+    }
+
+}

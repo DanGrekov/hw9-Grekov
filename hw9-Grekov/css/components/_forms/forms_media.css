@@ -1,0 +1,22 @@
+@media (max-width: 750px) {
+
+    .forms{
+        margin: 100px 0 500px;
+        color: var(--font-color);
+    }
+
+    .forms form {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .forms .contact-inf{
+        margin-top: 20px;
+        position: absolute;
+        width: 100%;
+        bottom: -480px;
+        left: 0;
+    }
+
+
+}

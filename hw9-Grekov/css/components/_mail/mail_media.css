@@ -1,0 +1,10 @@
+@media (max-width: 1000px) {
+
+    .mail .container form button{
+        margin-top: 20px;
+    }
+
+    .mail {
+        padding: 50px 0;
+    }
+}

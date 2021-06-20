@@ -1,19 +1,5 @@
-footer{
-    margin-top: 100px;
-    padding: 20px 0;
-    font-size: 12px;
-    background-color: rgb(36, 36, 36);
-    color: rgb(107, 107, 107);
-}
-
-footer a{
-    color: white;
-    list-style: none;
-}
-
-
-footer .to-start{
-    color: var(--font-color);
+footer .to-start a{
+    color: #fff;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -23,6 +9,7 @@ footer .to-start{
     align-items: center;
     justify-content: center;
     transition: 0.5s;
+    list-style: none;
     
     position: fixed;
     right: 20px;
@@ -30,6 +17,8 @@ footer .to-start{
     
 }
 
-footer .to-start:hover{
+footer .to-start a:hover{
     box-shadow: var(--shadow);
+    background-color: #fff;
+    color: var(--first-collor)
 }

@@ -38,7 +38,7 @@
 }
 
 .mail .container form button{
-    height: 80px;
+    max-height: 80px;
     border-radius: 5px;
     background-color: var(--first-collor);
     font-family: sans-serif;
@@ -46,7 +46,7 @@
     font-size: 20px;
     border: 0;
     transition: 0.5s;
-    padding: 0 50px;
+    padding: 20px 50px;
 }
 
 .mail .container form button:hover{

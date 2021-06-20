@@ -15,7 +15,7 @@
 .gallery p {
     padding: 20px 0;
     color: var(--font-color);
-    width: 400px;
+    max-width: 400px;
     margin: 0 auto;
 }
 

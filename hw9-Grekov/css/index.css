@@ -1,12 +1,13 @@
 @import "common/index.css";
-@import "components/header.css";
+@import "components/_header/index.css";
 
-@import "components/banner.css";
-@import "components/services.css";
-@import "components/gallery.css";
-@import "components/description.css";
-@import "components/mail.css";
-@import "components/forms.css";
+@import "components/_banner/index.css";
+@import "components/_services/index.css";
+@import "components/_gallery/index.css";
+@import "components/_description/index.css";
+@import "components/_mail/index.css";
+@import "components/_forms/index.css";
+@import "components/_to-start/index.css";
 
 
-@import "components/footer.css";
+@import "components/_footer/index.css";

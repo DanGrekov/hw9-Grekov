@@ -3,6 +3,9 @@ header {
     background-color: var(--hdr-ban-collor);
 }
 
+header input{
+    display: none;
+}
 
 header nav {
     background-color: var(--nav-collor);
@@ -14,7 +17,7 @@ header nav a {
     font-size: 14px;
     text-decoration: none;
     padding: 25px 25px;
-    display: inline-block;
+    display: block;
     transition: background-color 0.5s;
 }
 
@@ -33,11 +36,13 @@ header nav ul {
 header nav ul li ul.dropdown {
     display: none; 
     position: absolute;
+    
 }
 
 
 header nav ul:not(.dropdown) li {
     position: relative;
+    
 }
 
 header nav ul li:hover ul.dropdown {
@@ -48,9 +53,8 @@ header nav ul li:hover ul.dropdown {
 
 header nav ul.dropdown li {
     background-color: var(--nav-collor);
-
 }
 
 header nav ul.dropdown li a {
-    display: block; 
+    display: inline; 
 } 

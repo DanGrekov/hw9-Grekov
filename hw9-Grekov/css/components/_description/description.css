@@ -57,7 +57,7 @@
 .description .description-foto .inform-colmn{
     justify-content: space-between;
     flex-direction: column;
-    max-width: 75%;
+    width: 75%;
     padding-left: 100px;
     box-sizing: border-box;
 }
@@ -88,13 +88,14 @@
 
 .description .description-foto .Down{
     display: flex;
-    min-width: 820px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 
 .description .description-foto .screen-block:not(:last-child){
-    padding-right: 10px;   
+    padding-right: 10px; 
+    box-sizing: border-box;  
 }
 
 .description .description-foto .screen-block{

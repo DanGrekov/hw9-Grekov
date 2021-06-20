@@ -1,5 +1,5 @@
 .services{
-    margin: 100px;
+    margin: 100px 0;
 }
 
 .services .left, 
@@ -21,12 +21,14 @@
     max-width: 450px;
     padding: 30px 0;
     line-height: 28px;
+    text-align: justify;
 }
 
 .services .item p{
     max-width: 400px;
     color: var(--font-color);
     line-height: 25px;
+    text-align: justify;
 }
 
 .services .left a.btn-services{

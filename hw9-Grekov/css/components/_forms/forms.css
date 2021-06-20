@@ -17,8 +17,12 @@
     font-weight: 600;
 }
 
+.forms .txt {
+    margin-bottom: 80px;
+}
+
 .forms hr{
-    margin: 50px 0 80px;
+    margin: 50px 0 0;
     width: 100px;
     background-color: var(--first-collor);
     height: 1px;
@@ -105,7 +109,7 @@
 }
 
 .forms .contact-inf:hover{
-    box-shadow: var(--shadow);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
 }
 
 .forms .form-item textarea::placeholder{

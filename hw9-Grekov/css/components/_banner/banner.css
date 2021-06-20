@@ -50,6 +50,7 @@
     font-weight: bolder;
     margin-bottom: 30px;
     max-width: 20%;
+    transition: 0.5s;
 }
 
 .banner .left a:hover{

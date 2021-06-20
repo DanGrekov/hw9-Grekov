@@ -1,0 +1,39 @@
+@media (max-width: 500px) {
+
+    header .container{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    } 
+
+    header nav a {
+        padding: 20px 10px;
+    }
+
+    header nav ul.dropdown li a {
+        display: inline-block; 
+    } 
+
+    header input{
+        display: block;
+        background-color: var(--nav-collor);
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header input:checked + nav {
+        display: block;
+        flex-direction: column;
+    }
+
+    header nav ul {
+        list-style: none;
+    }
+
+    header nav li a {
+        text-align: center;
+    }
+
+}
