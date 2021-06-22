@@ -1,8 +1,6 @@
 @media (max-width: 992px){
 
     .gallery .box .box-content {
-        margin: 5px;
-        height: 150px;
         background-color: var(--box-color);
         transition: box-shadow 0.5s;
     }
@@ -11,13 +9,15 @@
         width: calc(100%/3);
     }
 
+    .gallery.boxes{ 
+        justify-content:space-evenly;
+    }
+
 }
 
 @media (max-width: 500px){
 
     .gallery .box .box-content {
-        margin: 5px;
-        height: 130px;
         background-color: var(--box-color);
         transition: box-shadow 0.5s;
     }
@@ -40,8 +40,6 @@
 @media (max-width: 350px){
 
     .gallery .box .box-content {
-        margin: 5px;
-        height: 100px;
         background-color: var(--box-color);
         transition: box-shadow 0.5s;
     }

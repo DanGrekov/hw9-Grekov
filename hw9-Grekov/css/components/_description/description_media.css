@@ -1,4 +1,4 @@
-@media (max-width: 500px) {
+@media (max-width: 767px) {
 
     .description .description-foto .inform-colmn {
         width: 100%;
@@ -6,7 +6,7 @@
     }
 
     .description .screen-bg {
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -40,15 +40,27 @@
         padding-top: 20px;
         
     }
-    
-    .description .description-foto .screen-block-content {
-        height: 150px; 
+
+    .description .description-foto .inform-colmn.row{
+        justify-content: space-between;
+        flex-direction: column;
+        width: 100%;
+        padding-left: 10px;
+        box-sizing: border-box;
     }
 
     .description .description-foto .screen-block {
         width: 50%;
         padding: 10px 10px 0 0;
         box-sizing: border-box;
+    }
+
+    .description .description-foto {
+        display: inline-block;
+    }
+
+    .description .screen-bg {
+        width: 50%;
     }
 
 }

@@ -40,20 +40,28 @@
     color: var(--first-collor);
 }
 
-div.boxes{ 
+.gallery .boxes{ 
     justify-content:space-between;
-    flex-wrap: wrap;  
-    padding-top: 50px;
+    flex-wrap: wrap;
 }
+
+.gallery .row {
+    padding-top: 50px ;
+}
+
 .gallery .box{
-    width: 25%;  
+    width: 25%;
+    padding-bottom: 20px;
+
+}
+
+.gallery .box img{
+    width: 95%;
 }
 
 .gallery .box .box-content{
-    margin: 5px;
-    height: 290px;
-    background-color: var(--box-color);
     transition: box-shadow 0.5s;
+
 }
 
 .gallery .box .box-content:hover{
@@ -65,5 +73,5 @@ div.boxes{
     background-color: var(--first-collor);
     height: 2px;
     border: 0;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }

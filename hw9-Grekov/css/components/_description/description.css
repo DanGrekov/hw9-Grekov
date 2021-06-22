@@ -30,7 +30,6 @@
 
 .description .description-foto .screen{
     width: 100%;
-    height: 400px;
     background-color: var(--box-color);
     transition: box-shadow 0.5s;
 }
@@ -62,6 +61,11 @@
     box-sizing: border-box;
 }
 
+.description .description-foto ul {
+    justify-content: space-between;
+    max-width: 400px;
+}
+
 .description .description-foto .Up ul{
     list-style: none;
     justify-content: flex-start;
@@ -71,7 +75,6 @@
 }
 
 .description .description-foto ul li{
-    padding-right: 50px;
     font-style: italic;
 }
 
@@ -92,23 +95,21 @@
     flex-wrap: wrap;
 }
 
-
-.description .description-foto .screen-block:not(:last-child){
-    padding-right: 10px; 
-    box-sizing: border-box;  
-}
-
 .description .description-foto .screen-block{
     width: 25%;   
 }
 
 .description .description-foto .screen-block-content{
-    height: 200px;
-    background-color: var(--box-color);
     transition: box-shadow 0.5s;
 }
 
-.description .description-foto .screen-block-content:hover{
+.description .description-foto .screen-block-content img{
+    width: 90%;
+    transition: 0.5s;
+}
+
+
+.description .description-foto .screen-block-content img:hover{
     box-shadow: var(--shadow);
 }
 

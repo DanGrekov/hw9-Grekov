@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
 
     .forms{
         margin: 100px 0 500px;
@@ -14,9 +14,17 @@
         margin-top: 20px;
         position: absolute;
         width: 100%;
-        bottom: -480px;
+        bottom: 0;
         left: 0;
+        top: 100%;
+        right: 0;
     }
 
+}
 
+@media (max-width: 500px) {
+
+    .forms .contact-inf .txt {
+        margin-left: 15px;
+    }
 }

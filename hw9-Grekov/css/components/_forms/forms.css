@@ -3,6 +3,13 @@
     color: var(--font-color);
 }
 
+.forms.container {
+    width: var(--width);
+    margin: 0 auto;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
 .forms .txt p{
     max-width: 600px;
     line-height: 30px;
@@ -81,10 +88,10 @@
 
 .forms .contact-inf{
     background-color: #2d2d2d;
-    width: 50.8%;
-    height: 100%;
+    width: 50%;
     position: absolute;
-    left: 750px;
+    top: 0;
+    right: -14%;
 }
 
 .forms .form-item{
@@ -94,7 +101,7 @@
 
 .forms .contact-inf .txt{
     margin-top: 150px;
-    margin-left: 100px;
+    margin-left: 80px;
     color: #e0e0e0;
 }
 
@@ -105,7 +112,8 @@
 }
 
 .forms .contact-inf{
-    transition: 0.5s
+    transition: 0.5s;
+    height: 100%;
 }
 
 .forms .contact-inf:hover{
