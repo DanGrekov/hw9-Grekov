@@ -12,7 +12,7 @@ header nav {
     padding: 0;
 }
 
-header nav a {
+header nav a:not(.dropdown a) {
     color: white;
     font-size: 14px;
     text-decoration: none;
@@ -21,8 +21,12 @@ header nav a {
     transition: background-color 0.5s;
 }
 
-header nav a:hover {
+header nav a:hover:not(.dropdown a) {
     background-color: var(--first-collor);
+}
+
+header label{
+    display: none;
 }
 
 header nav ul {
@@ -42,19 +46,35 @@ header nav ul li ul.dropdown {
 
 header nav ul:not(.dropdown) li {
     position: relative;
-    
 }
 
 header nav ul li:hover ul.dropdown {
     display: block;
     width: 100%;
     text-align: center;
+    height: 50%;
 }
 
 header nav ul.dropdown li {
     background-color: var(--nav-collor);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+header nav ul.dropdown li:hover {
+    background-color: var(--first-collor);
 }
 
 header nav ul.dropdown li a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
     display: inline; 
+    width: 100%;
 } 

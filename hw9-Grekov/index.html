@@ -10,7 +10,9 @@
 
 <header>
     <div class="container">
-            <input type="checkbox">
+        <div class="menu">
+            <label for="menu">MENU</label>
+            <input id="menu" type="checkbox">
             <nav>
                 <ul>
                     <li>
@@ -75,8 +77,10 @@
                     </li>
                 </ul>
             </nav>
+        </div>
     </div>
 </header>
+
 
 <main>
     <div class="banner">
@@ -296,26 +300,30 @@
                 <hr align="left">
             </div>
 
-            <div class="form-item">
-                <form class="row">
-                    <input type="email" placeholder="Name" name="FIO" >
-                    <input type="email" placeholder="Your Email" name="FIO">
+            <div class="form-item row">
+                <form>
+                    <div class="input">
+                        <input type="email" placeholder="Name" name="FIO" >
+                        <input type="email" placeholder="Your Email" name="FIO">
+                    </div>  
                     <textarea placeholder="Type your message"></textarea>
                     <button name="Send" type="submit">SEND MASAGE</button>
                 </form>
+
                 <div class="contact-inf">
-                    <div class="txt">
-                        <h5>CONTACT INFO</h5>
-                        <p>Jalalabad 24/A, Ambaarkhana, Sylhet, Bangladesh</p>
-                        <p>redwan@deviserweb.com</p>
-                        <p>(+88)017 617 46373</p>
+                    <div class="wrapper">
+                        <div class="txt">
+                            <h5>CONTACT INFO</h5>
+                            <p>Jalalabad 24/A, Ambaarkhana, Sylhet, Bangladesh</p>
+                            <p>redwan@deviserweb.com</p>
+                            <p>(+88)017 617 46373</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </main>
-
 
 
 <footer>

@@ -44,7 +44,7 @@
     font-size: 17px;
     font-weight: bolder;
     margin-bottom: 30px;
-    max-width: 20%;
+    max-width: 180px;
     border: 2px solid;
     border-color: var(--first-collor);
     transition: 0.5s;

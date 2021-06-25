@@ -1,7 +1,7 @@
 @media (max-width: 1200px) {
 
     .forms{
-        margin: 100px 0 500px;
+        margin: 100px 0 0px;
         color: var(--font-color);
     }
 
@@ -11,14 +11,22 @@
     }
 
     .forms .contact-inf{
-        margin-top: 20px;
-        position: absolute;
+        padding: 50px 0 0;
         width: 100%;
         bottom: 0;
         left: 0;
         top: 100%;
         right: 0;
     }
+
+    .forms .contact-inf .wrapper{
+        padding: 80px 0 0;
+    }
+
+    .forms .form-item:after{
+        display: none;
+    }
+    
 
 }
 
